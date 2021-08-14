@@ -1,0 +1,67 @@
+G1={ x1,    x2 }
+save(       !( !{[x1;;x2],    [x3;x4]  |   <   [x3;x4] , [x1;;x2]  >,   <[x1;;x2] , [x3;x4]>  } + !(G1) ) ,   in  put      1)
+print(!load(  input1   ) - !G1 )
+print  (  !    (load(in  put      1) - G1 ))
+G2=G1{G1}+!!G1
+prints=     G1 + load   (in  put      1)   - (!G1)
+save(prints,print)
+print(load(print)+load(print))
+print(unrecognize_file.gc)
+print(load(unrecognize_file.gc))
+           who()
+save(G1,)
+save((G1)),in  put      1)
+G3=!!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^{[x1;x2] ,[ x2; x1 ] |< [ x2;x1 ],[ x2; x1 ] >}
+G3=!!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^!{[x1;x2] ,[x2;x1] |< [x2; x1],   [x1;x2] >  }
+G3=!!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^!{[x1;x2] ,[x2;x1] ||< [x2;x1],   [x1;x2] >  }
+G3=!!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^!{[x1;x2] ,[x2;x1] |< <[x2;x1],   [x1;x2]> >  }
+G3=!!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^!{[x1;x2] ,[x2;x1] |< [x2;x1],   [x1;x2] >  }
+G4={x1,x3,x5|<x1,x2>}
+G4={x1,x3,x5|<x1,x1>}
+G4={x1,x3,x5|<x1,x3> ,<x3,x1> <x1,x3>} 
+G4={x1,x3,x5|<x1,x3>, <x3,x1>,<> }
+G4=print({x1})
+!G1=!G1
+G4=+G1+      G1
+G4=+G1+      +G1
+G4=+G1+      G1+
+1G4=G1
+G5={}^G1
+print(G5)
+G5={}{}
+G5={x1,x2 <x1,x2>}
+G5={x1,x2 <x1,x2}
+G5={x1! ,x2| }
+G5={x1[;;;;;] ,x2| }
+G5={x1[[;[[;]];];]}
+G5={x1[[[[[[]]]]]];}
+G5={x1[[[[[[]]]]]],[|]} 
+G5={x1[[[[[[]]]]]],[]} 
+G5={x1[[[[[[]]]]]][|]} 
+print({x1,x2[;]|})
+G5={x1,x2  } + ({)}
+G5={x1,x2  } + !({})
+G5={x1,x2  } + ({})!
+G5={x1,x2  } + !({})! + G1
+print({load, save, print , reset, who,delete|<save,load>, <reset,delete> }+ load(print))
+G6={}+{|}+{|   }
+G6={|<>}
+delete(G6)
+print(G6)
+who
+reset
+who
+G1=!{x1,x2}
+G2=!      {x1,x2}+{x1,x2|<x1,x2>}
+G3=load(   p   r  i  n  t   )*load(   p  rint           )
+G4=(!)+G1
+G1=(!)G1
+G1=()+G1
+G1=(G1+)G1
+G1=()G1
+(G1)=G1
+{x1}=G1
+=G1
+G1=
+               print     (   !!      ! ! ( ! G1 )* ( !{ x1 ,x2  |   })^!{[x1;x2] ,[x2;x1] |< [x2;x1],   [x1;x2] >       }  * G1      )
+print({<>})
